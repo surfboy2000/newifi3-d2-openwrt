@@ -56,4 +56,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: manifest-${{ env.FILE_DATE }}
-          path: /home/runner/work/newifi3-d2-openwrt/newifi3-d2-openwrt/immortalwrt/bin/targets/ramips/mt7621/
+          path: /home/runner/work/newifi3-d2-openwrt/newifi3-d2-openwrt/immortalwrt/bin/targets/ramips/mt7621/immortalwrt-ramips-mt7621-xiaomi_mi-router-ac2100.manifest
