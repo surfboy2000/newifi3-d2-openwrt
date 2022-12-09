@@ -1,4 +1,4 @@
-name: xiaomir2100-actions
+name: r1-actions
 
 env:
   TZ: Asia/Shanghai
@@ -56,4 +56,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: manifest-${{ env.FILE_DATE }}
-          path: /home/runner/work/newifi3-d2-openwrt/newifi3-d2-openwrt/immortalwrt/bin/targets/
+          path: /home/runner/work/newifi3-d2-openwrt/newifi3-d2-openwrt/immortalwrt/bin/targets/x86/64/packages/immortalwrt-x86-64-generic.manifest
